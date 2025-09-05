@@ -1,5 +1,5 @@
 #!/bin/bash
 
-find . -name "*.txt" | xargs basename | sort
+basename $(find . -name "*.txt") | sort
 
 
