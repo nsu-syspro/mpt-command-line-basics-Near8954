@@ -1,5 +1,5 @@
 #!/bin/bash
 
-basename $(find . -name "*.txt") | sort
+basename $(find . -name "*.txt" -type f) | sort
 
 
